@@ -32,4 +32,11 @@ describe("FizzBuzz", () => {
         })
     })
 
+    describe("FizzBuzz returns Buzz", () => {
+        
+        it("Returns Buzz when 5 is inputNumber", () => {
+            expect(fizzBuzz(5)).to.equal("Buzz");
+        })
+    })
+
 })
