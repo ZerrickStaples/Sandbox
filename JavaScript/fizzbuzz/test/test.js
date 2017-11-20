@@ -16,6 +16,10 @@ describe("FizzBuzz", () => {
             expect(fizzBuzz()).to.equal(1);
         })
 
+        it("Returns more input", () => {
+            expect(fizzBuzz(2)).to.equal(2);
+        })
+
     })
 
 })
