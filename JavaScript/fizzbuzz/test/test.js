@@ -19,7 +19,13 @@ describe("FizzBuzz", () => {
         it("Returns more input", () => {
             expect(fizzBuzz(2)).to.equal(2);
         })
+    })
 
+    describe("FizzBuzz returns Fizz", () => {
+
+        it("Returns Fizz when 3 is inputNumber", () => {
+            expect(fizzBuzz(3)).to.equal("Fizz");
+        })
     })
 
 })
