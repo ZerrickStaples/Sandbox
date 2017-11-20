@@ -1,3 +1,3 @@
-export const fizzBuzz = () => {
-    return 1;
+export const fizzBuzz = (inputNumber) => {
+    return inputNumber;
 }

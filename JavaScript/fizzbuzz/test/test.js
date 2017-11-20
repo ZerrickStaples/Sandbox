@@ -13,7 +13,7 @@ describe("FizzBuzz", () => {
     describe("FizzBuzz returns a number", () => {
         
         it("Returns input", () => {
-            expect(fizzBuzz()).to.equal(1);
+            expect(fizzBuzz(1)).to.equal(1);
         })
 
         it("Returns more input", () => {
