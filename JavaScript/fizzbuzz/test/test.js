@@ -43,4 +43,11 @@ describe("FizzBuzz", () => {
         })
     })
 
+    describe("FizzBuzz returns FizzBuzz", () => {
+
+        it("Returns FizzBuzz when 15 is inputNumber", () => {
+            expect(fizzBuzz(15)).to.equal("FizzBuzz");
+        })
+    })
+
 })
