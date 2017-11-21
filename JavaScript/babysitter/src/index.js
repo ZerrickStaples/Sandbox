@@ -9,3 +9,9 @@ export const startTimeRate = (startTime, bedTime) => {
     return hoursWorked * 12;
 
 }
+
+export const bedTimeRate = () => {
+
+
+
+}
