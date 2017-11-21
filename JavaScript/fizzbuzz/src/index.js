@@ -1,15 +1,20 @@
 export const fizzBuzz = (inputNumber) => {
 
-    if(inputNumber % 15 === 0) {
+    const isFizzBuzz = Boolean(inputNumber % 15 === 0)
+    const isBuzz = Boolean(inputNumber % 5 === 0)
+    const isFizz = Boolean(inputNumber % 3 === 0)
+
+    if(isFizzBuzz) {
         return "FizzBuzz";
     }
 
-    if(inputNumber % 5 === 0) {
+    if(isBuzz) {
         return "Buzz";
     }
 
-    if(inputNumber % 3 === 0) {
+    if(isFizz) {
         return "Fizz";
     }
+    
     return inputNumber;
 }
