@@ -12,6 +12,6 @@ export const startTimeRate = (startTime, bedTime) => {
 
 export const bedTimeRate = () => {
 
-
+    return 8;
 
 }
