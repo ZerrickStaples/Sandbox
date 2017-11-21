@@ -17,3 +17,7 @@ export const bedTimeRate = (bedTime, midnight) => {
     return hoursWorked * 8;
 
 }
+
+export const endTimeRate = () => {
+    
+}
