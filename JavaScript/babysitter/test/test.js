@@ -19,6 +19,10 @@ describe("Babysitter Kata", () => {
         it("Returns pay for multiple hours", () => {
             expect(startTimeRate(5, 8)).to.equal(36);
         })
+
+        it("Starts no earlier than 5pm", () => {
+            expect(startTimeRate(4, 6)).to.equal(12);
+        })
     })
 
 })
