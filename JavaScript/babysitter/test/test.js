@@ -28,11 +28,11 @@ describe("Babysitter Kata", () => {
     describe("Bedtime to Midnight", () => {
 
         it("Returns $8 for one hour", () => {
-            expect(bedTimeRate()).to.equal(8);
+            expect(bedTimeRate(11, 12)).to.equal(8);
         })
 
         it("Returns pay for multiple hours", () => {
-            expect(bedTimeRate()).to.equal(24);
+            expect(bedTimeRate(9, 12)).to.equal(24);
         })
     })
 
