@@ -1,5 +1,8 @@
-export const startTimeRate = () => {
+export const startTimeRate = (startTime, bedTime) => {
 
-    return 12;
+    let hoursWorked = bedTime - startTime
+    let startTimePay = hoursWorked * 12;
+
+    return startTimePay;
 
 }
