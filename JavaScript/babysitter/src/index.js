@@ -1,8 +1,11 @@
 export const startTimeRate = (startTime, bedTime) => {
 
-    let hoursWorked = bedTime - startTime
-    let startTimePay = hoursWorked * 12;
+    if(startTime < 5) {
+        startTime = 5;
+    }
 
-    return startTimePay;
+    let hoursWorked = bedTime - startTime
+    
+    return hoursWorked * 12;
 
 }
