@@ -18,8 +18,11 @@ export const bedTimeRate = (bedTime, midnight) => {
 
 }
 
-export const endTimeRate = () => {
+export const endTimeRate = (midnight, endTime) => {
+    midnight = 0;
 
-    return 16;
+    let hoursWorked = endTime - midnight;
+
+    return hoursWorked * 16;
 
 }
