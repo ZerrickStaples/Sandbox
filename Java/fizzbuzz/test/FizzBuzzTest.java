@@ -11,4 +11,11 @@ public class FizzBuzzTest
         assertEquals("1", fizzBuzz.fizz(1));
     }
 
+    @Test
+    public void fizzBuzzReturnsInputNumber()
+    {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("2", fizzBuzz.fizz(2));
+    }
+
 }
