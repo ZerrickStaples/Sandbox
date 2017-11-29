@@ -34,4 +34,11 @@ public class FizzBuzzTest
         assertEquals("Buzz", fizzBuzz.fizz(10));
     }
 
+    @Test
+    public void returnsFizzBuzzForMultiplesOf3And5()
+    {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("FizzBuzz", fizzBuzz.fizz(15));
+    }
+
 }
