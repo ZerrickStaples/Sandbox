@@ -19,10 +19,11 @@ public class FizzBuzzTest
     }
 
     @Test
-    public void returnsFizzFor3()
+    public void returnsFizzForMultiplesOf3()
     {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("Fizz", fizzBuzz.fizz(3));
+        assertEquals("Fizz", fizzBuzz.fizz(6));
     }
 
 }
