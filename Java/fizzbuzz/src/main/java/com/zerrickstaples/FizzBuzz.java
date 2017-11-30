@@ -15,15 +15,15 @@ public class FizzBuzz {
         return inputNumber.toString();
     }
 
-    private static boolean isFizz(Integer inputNumber) {
-        return inputNumber % 3 == 0;
+    private static boolean isFizzBuzz(Integer inputNumber) {
+        return inputNumber % 15 == 0;
     }
 
     private static boolean isBuzz(Integer inputNumber) {
         return inputNumber % 5 == 0;
     }
 
-    private static boolean isFizzBuzz(Integer inputNumber) {
-        return inputNumber % 15 == 0;
+    private static boolean isFizz(Integer inputNumber) {
+        return inputNumber % 3 == 0;
     }
 }
