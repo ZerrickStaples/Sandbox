@@ -23,4 +23,9 @@ public class FizzBuzzTest {
     public void returnsFizzForMultiplesOfThree() {
         Assert.assertEquals("Fizz", FizzBuzz.calc(6));
     }
+
+    @Test
+    public void returnsBuzzInPlaceOfFive() {
+        Assert.assertEquals("Buzz", FizzBuzz.calc(5));
+    }
 }
