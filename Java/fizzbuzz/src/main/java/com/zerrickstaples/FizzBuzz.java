@@ -3,7 +3,7 @@ package com.zerrickstaples;
 public class FizzBuzz {
     public static String calc(Integer inputNumber) {
 
-        if(inputNumber == 15){
+        if(inputNumber % 15 == 0){
             return "FizzBuzz";
         }
         if (inputNumber % 5 == 0){
