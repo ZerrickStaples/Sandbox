@@ -1,7 +1,8 @@
 package com.zerrickstaples;
 
 public class FizzBuzz {
-    public String calc(int inputNumber) {
-        return "1";
+    public String calc(Integer inputNumber) {
+
+        return inputNumber.toString();
     }
 }
