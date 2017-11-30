@@ -38,4 +38,9 @@ public class FizzBuzzTest {
     public void returnsFizzBuzzInPlaceOf15() {
         Assert.assertEquals("FizzBuzz", FizzBuzz.calc(15));
     }
+
+    @Test
+    public void returnsFizzBuzzForMultiplesOf15() {
+        Assert.assertEquals("FizzBuzz", FizzBuzz.calc(30));
+    }
 }

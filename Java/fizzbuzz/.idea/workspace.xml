@@ -34,8 +34,8 @@
           <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/zerrickstaples/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+                <state relative-caret-position="372">
+                  <caret line="43" column="59" lean-forward="false" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#156#157#0" expanded="true" />
@@ -52,6 +52,8 @@
                     <element signature="e#811#812#0" expanded="true" />
                     <element signature="e#869#870#0" expanded="true" />
                     <element signature="e#935#936#0" expanded="true" />
+                    <element signature="e#998#999#0" expanded="true" />
+                    <element signature="e#1064#1065#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -376,8 +378,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zerrickstaples/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zerrickstaples/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zerrickstaples/FizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -619,14 +621,11 @@
       <option name="presentableId" value="Default" />
       <updated>1512004136589</updated>
       <workItem from="1512004137986" duration="666000" />
-      <workItem from="1512004835863" duration="2583000" />
+      <workItem from="1512004835863" duration="2711000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2017.11.29 at 20h 50m 41s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTest - 2017.11.29 at 20h 51m 31s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -654,9 +653,12 @@
     <history-entry file="FizzBuzzTest - 2017.11.29 at 21h 02m 33s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest - 2017.11.29 at 21h 03m 52s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3249000" />
+    <option name="totallyTimeSpent" value="3377000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -720,10 +722,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zerrickstaples/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zerrickstaples/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        <state relative-caret-position="372">
+          <caret line="43" column="59" lean-forward="false" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#156#157#0" expanded="true" />
@@ -740,15 +750,9 @@
             <element signature="e#811#812#0" expanded="true" />
             <element signature="e#869#870#0" expanded="true" />
             <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zerrickstaples/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
