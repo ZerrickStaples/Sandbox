@@ -14,6 +14,9 @@ describe("Pencil durability", () => {
         it("Write returns text", () => {
             expect(write()).to.equal("She sells sea shells");
         })
+        it("Write appends text", () => {
+            expect(write()).to.equal("She sells sea shells down by the sea shore");
+        })
     })
 
 })
